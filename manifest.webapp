@@ -15,12 +15,11 @@
     },
     "script-library": {
 	"dependencies" :  {
-            "SystemInfo.js" : [ 
-	         "Errors.js" 
+            "lib/SystemInfo.js" : [ 
+	         "lib/Errors.js" 
 	    ],
-            "Metadata.js" : [ 
-	         "Errors.js" 
-	         "SystemInfo.js" 
+            "lib/Metadata.js" : [ 
+	         "lib/Errors.js" 
 	    ],
         },
     }    
