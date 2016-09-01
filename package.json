@@ -1,0 +1,19 @@
+{
+  "name": "dhis-ssa-core-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litlfred/dhis-ssa-core-services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litlfred/dhis-ssa-core-services/issues"
+  },
+  "homepage": "https://github.com/litlfred/dhis-ssa-core-services#readme"
+}
