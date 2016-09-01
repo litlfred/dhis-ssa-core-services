@@ -1,27 +1,26 @@
 {
-    "version": "0.1",
-    "name": "DHIS2 Core Services ",
-    "description": "Core services support library",
-    "launch_path": "index.html",
-    "developer": {
-        "name": "Carl Leitner <litlfred@gmail.com>",
-        "url": "http://github.com/litlfred/dhis-ssa-metadata-fhir"
-    },
-    "default_locale": "en",
-    "activities": {
-        "dhis": {
-            "href": "*"
-        }
-    },
-    "script-library": {
-	"dependencies" :  {
-            "lib/SystemInfo.js" : [ 
-	         "lib/Errors.js" 
-	    ],
-            "lib/Metadata.js" : [ 
-	         "lib/Errors.js" 
-	    ]
-        }
-    }    
+  "version": "1.0.2",
+  "name": "DHIS2 Core Services ",
+  "description": "Core services support library",
+  "launch_path": "index.html",
+  "developer": {
+    "name": "Carl Leitner <litlfred@gmail.com>",
+    "url": "http://github.com/litlfred/dhis-ssa-metadata-fhir"
+  },
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "script-library": {
+    "dependencies": {
+      "lib/SystemInfo.js": [
+        "lib/Errors.js"
+      ],
+      "lib/Metadata.js": [
+        "lib/Errors.js"
+      ]
+    }
+  }
 }
-
