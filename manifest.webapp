@@ -1,0 +1,28 @@
+{
+    "version": "0.1",
+    "name": "DHIS2 Core Services ",
+    "description": "Core services support library",
+    "launch_path": "index.html",
+    "developer": {
+        "name": "Carl Leitner <litlfred@gmail.com>",
+        "url": "http://github.com/litlfred/dhis-ssa-metadata-fhir"
+    },
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "*"
+        }
+    },
+    "script-library": {
+	"dependencies" :  {
+            "SystemInfo.js" : [ 
+	         "Errors.js" 
+	    ],
+            "Metadata.js" : [ 
+	         "Errors.js" 
+	         "SystemInfo.js" 
+	    ],
+        },
+    }    
+}
+
